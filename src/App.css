@@ -4,6 +4,18 @@ body{
   margin: 5px 60px;
 }
 
+@media screen and (max-width: 768px) {
+  body {
+    margin: 5px 35px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    margin: 5px 20px;
+  }
+}
+
 .App {
   text-align: center;
 }
